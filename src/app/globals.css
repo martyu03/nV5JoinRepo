@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {}
+
+:root {
+  --color-eins: #1a1a1a;
+  --color-zwei: #ff6600;
+}
+
+.bottom-bar {
+  background-color: #333333; 
+  color: #ffffff;
+}
+
+.bottom-bar .menu a {
+  color: #ffffff; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.bottom-bar .menu a.active {
+  color: #ffffff; 
+} 
+
+.bottom-bar .menu a:hover {
+  color: #df350f; 
+}
+
+.logo img {
+  display: inline-block; 
+  width: 225px;
+  height: 78.89px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.video-sidebar {
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px; 
+  padding: 100px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .head {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.video.left {
+  flex: 3;
+}
+
+.embed {
+  position: relative;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
