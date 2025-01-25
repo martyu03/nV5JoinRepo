@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Proxima Nova';
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -86,6 +98,26 @@
   align-items: center;
 }
 
+
+/* width */
+.top-stories-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.top-stories-scrollbar::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+.top-stories-scrollbar::-webkit-scrollbar-thumb {
+  background: #ef4135; 
+}
+
+/* Handle on hover */
+.top-stories-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
 
 
 
