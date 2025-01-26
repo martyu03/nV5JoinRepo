@@ -56,33 +56,27 @@ const HomeListView = () => {
             <ProducersView />
           </div>
         </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-4 gap-10">
+          <div className="col-span-1">
             <SportsView />
           </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+          <div className="col-span-1">
             <CelebrityView />
           </div>
         </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-4 gap-10">
+          <div className="col-span-1">
             <WordOfTheLourdView />
           </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+          <div className="col-span-1">
             <FeaturesView />
           </div>
         </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-4 gap-10">
+          <div className="col-span-1">
             <ForeignView />
           </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+          <div className="col-span-1">
             <MoneyView />
           </div>
         </div>
