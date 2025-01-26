@@ -3,15 +3,15 @@
 import React from 'react';
 
 // Define a type for the data that will be passed to the  component
-interface MoreNewsProps {
+interface MoreFromNewsProps {
   data: any[];
 }
 
-const MoreNews = ({ data }: MoreNewsProps) => {
+const MoreFromNews = ({ data }: MoreFromNewsProps) => {
   return (
     <div className="grid-section">
       <div className="flex justify-between items-center p-4">
-        <h2 className="text-xl font-bold">MoreNews</h2>
+        <h2 className="text-xl font-bold">MoreFromNews</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {data && data.length > 0 ? (
@@ -29,4 +29,4 @@ const MoreNews = ({ data }: MoreNewsProps) => {
   );
 };
 
-export default MoreNews;
+export default MoreFromNews;

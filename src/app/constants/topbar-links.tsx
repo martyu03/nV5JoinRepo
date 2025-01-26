@@ -29,5 +29,5 @@ export const topbarLinks = [
     id: 6,
     label: "Sulit TV",
     path: "https://www.tv5.com.ph/sulittv",
-  },
+  }
 ];

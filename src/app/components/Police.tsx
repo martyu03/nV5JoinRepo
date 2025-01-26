@@ -11,7 +11,7 @@ const Police = ({ data }: PoliceProps) => {
   return (
     <div className="grid-section">
       <div className="flex justify-between items-center p-4">
-        <h2 className="text-xl font-bold">Police</h2>
+        <h2 className="text-xl font-bold bg-red-500 ">Police</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {data && data.length > 0 ? (

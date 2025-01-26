@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 const HomeLayout = ({ children }: any) => {
   return (
-    <div className="flex flex-col">
+    <div>
       <div className="">
         <Topbar />
         <Bottombar />
       </div>
-      <div>{children}</div>
+      <div className="w-full bg-orange-200 p-2">{children}</div>
     </div>
   );
 };

@@ -4,14 +4,15 @@ import HomeStoriesView from "./HomeStoriesView";
 
 const HomeListView = () => {
   return (
-    <div className="">
-      <div className="grid grid-cols-4">
-        <div className="col-span-3">
-          <HomeMainVideo />
+    <div className="w-full bg-green-500">
+      <div className="grid w-full bg-black p-5 grid-cols-5">
+        <div className="col-span-4 bg-red-500">
+          hello
+          {/* <HomeMainVideo /> */}
         </div>
-        <div className="col-span-1">
+        <div className="bg-orengae-500 col-span-1">
+          hellowww
           {/* <HomeStoriesView /> */}
-          <h1>hello</h1>
         </div>
       </div>
     </div>
