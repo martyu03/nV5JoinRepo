@@ -23,7 +23,7 @@ export const politicsLinks = [
         path: "https://news.tv5.com.ph/politics/watch/zkt8QnyxwKA/pres-bongbong-marcos-problematic-hindi-praktikal-sa-ngayon-ang-impeachment-vs-vp-sara-duterte/PL5HOfFlVmenZPwoUYO4bPNMXcGq-MGVCV",
         thumbnail: "/images/politics-images/politics3.png",
         datePublishedOn: "January 17, 2025",
-        timePublished: "08:13 PM",
+        timePublished: "8:13 PM",
     },
     {
         id: 4,
@@ -31,6 +31,6 @@ export const politicsLinks = [
         path: "https://news.tv5.com.ph/politics/watch/sXiicemWzas/grupong-nagpapa-impeach-kay-vp-duterte-nanawagan-sa-kamara-na-wag-magpadala-sa-political-threat/PL5HOfFlVmenZPwoUYO4bPNMXcGq-MGVCV",
         thumbnail: "/images/politics-images/politics4.png",
         datePublishedOn: "January 16, 2025",
-        timePublished: "09:21 PM",
+        timePublished: "9:21 PM",
     }
 ]

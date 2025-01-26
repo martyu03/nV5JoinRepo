@@ -7,7 +7,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/cSi3E48RdIw/simbang-gabi-patuloy-na-bahagi-ng-tradisyon-sa-pilipinas-tuwing-pasko/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4",
         thumbnail: "/images/morefromnews-images/morefromnews1.png",
         datePublishedOn: "December 20, 2024",
-        timePublished: "08:31 PM",
+        timePublished: "8:31 PM",
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/J27q5adBRZ4/south-korean-pres-yoon-suk-yeol-idineklarang-national-emergency-ang-deepfake-sex-crimes/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4",
         thumbnail: "/images/morefromnews-images/morefromnews2.png",
         datePublishedOn: "August 30, 2024",
-        timePublished: "09:31 PM",
+        timePublished: "9:31 PM",
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/bIvweIUbEBY/taeil-pinaalis-sa-k-pop-group-na-nct-matapos-ang-alegasyon-ng-sexual-misconduct/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4#google_vignette",
         thumbnail: "/images/morefromnews-images/morefromnews3.png",
         datePublishedOn: "August 29, 2024",
-        timePublished: "06:27 PM",
+        timePublished: "6:27 PM",
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/3fKfL8nqRZE/gerald-santos-ginahasa-umano-ng-musical-director-noong-15-anyos-pa-lamang/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4",
         thumbnail: "/images/morefromnews-images/morefromnews4.png",
         datePublishedOn: "August 19, 2024",
-        timePublished: "08:50 PM",
+        timePublished: "8:50 PM",
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/5U7ImfTV11c/mga-gabay-at-paalala-ni-master-hanz-cua-para-sa-ghost-month/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4",
         thumbnail: "/images/morefromnews-images/morefromnews5.png",
         datePublishedOn: "August 18, 2024",
-        timePublished: "03:58 PM",
+        timePublished: "3:58 PM",
     },
     {
         id: 6,
@@ -71,7 +71,7 @@ export const morefromnewsLinks = [
         path: "https://news.tv5.com.ph/more-from-news5/watch/mQCNL6Us6WY/dating-us-congressman-inaasahang-aamin-na-sa-mga-kaso-ng-panloloko/PL5HOfFlVmenaAeYkMBe8ebWPi9ppQksX4#google_vignette",
         thumbnail: "/images/morefromnews-images/morefromnews9.png",
         datePublishedOn: "August 19, 2024",
-        timePublished: "04:21 PM",
+        timePublished: "4:21 PM",
     }, 
     {
         id: 10,

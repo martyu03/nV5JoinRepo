@@ -15,6 +15,6 @@ export const producersLinks = [
         path: "https://news.tv5.com.ph/producers-pick/watch/WVFfEYMXJJo/impeachment-complaint-vs-vp-sara-duterte-inihain-ng-ilang-grupo-sa-kamara--frontline-pilipinas/PL5HOfFlVmenY44mJ1ciBBVidlJtDIbRXL",
         thumbnail: "/images/producers-images/producers2.png",
         datePublishedOn: "December 02, 2024",
-        timePublished: "07:33 PM",
+        timePublished: "7:33 PM",
     }
 ]

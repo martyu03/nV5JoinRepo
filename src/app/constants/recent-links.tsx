@@ -16,7 +16,7 @@ export const recentLinks = [
       "Pagbabasura sa PUV modernization, ipinananawagan ng PISTON sa SONA ni PBBM | Frontline Pilipinas",
     path: "https://news.tv5.com.ph/recent/watch/Mybai_gu59g/pagbabasura-sa-puv-modernization-ipinananawagan-ng-piston-sa-sona-ni-pbbm--frontline-pilipinas/PL5HOfFlVmenYgTeZyV4SRand70EjT79oP",
     datePublishedOn: "July 15, 2024",
-    timePublished: "08:55 PM",
+    timePublished: "8:55 PM",
     thumbnail: "/images/recents-images/image2.png",
   },
 ];

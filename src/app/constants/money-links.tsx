@@ -7,6 +7,6 @@ export const moneyLinks = [
         path: "https://news.tv5.com.ph/money/watch/5UmItXhkgRA/pres-bongbong-marcos-suportado-ang-pagdedeklara-ng-food-security-emergency--frontline-pilipinas/PL5HOfFlVmenYFrbGKhb7IbKbv0qVarbDZ",
         thumbnail: "/images/money-images/money.png",
         datePublishedOn: "January 17, 2025",
-        timePublished: "08:40 PM",
+        timePublished: "8:40 PM",
     }
 ]

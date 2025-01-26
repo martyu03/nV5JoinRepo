@@ -15,7 +15,7 @@ export const trendingLinks = [
         path: "https://news.tv5.com.ph/trending/watch/_j9yDe9R6nc/security-guard-ng-mall-na-nagpaalis-sa-batang-nagtitinda-ng-sampaguita-tinanggal-na-sa-trabaho/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
         thumbnail: "/images/trending-images/trending2.png",
         datePublishedOn: "January 16, 2025",
-        timePublished: "04:58 PM",
+        timePublished: "4:58 PM",
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ export const trendingLinks = [
         path: "https://news.tv5.com.ph/trending/watch/7KpmM4BiIcI/35-kilo-python-sa-kisame-ng-tindahan-nakuha-ng-mga-bumbero-sa-bohol/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
         thumbnail: "/images/trending-images/trending4.png",
         datePublishedOn: "January 10, 2025",
-        timePublished: "04:25 PM",
+        timePublished: "4:25 PM",
     },
     {
         id: 5,
@@ -39,6 +39,6 @@ export const trendingLinks = [
         path: "https://news.tv5.com.ph/trending/watch/7LHJR2BI-dc/tatlong-wildfires-sabay-sabay-na-nanalasa-sa-california/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
         thumbnail: "/images/trending-images/trending5.png",
         datePublishedOn: "January 09, 2025",
-        timePublished: "08:45 PM",
+        timePublished: "8:45 PM",
     }    
 ]
