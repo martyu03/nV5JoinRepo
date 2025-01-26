@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ButtonWatch from "./ButtonWatch";
 
 type styles = {
   width: number;
@@ -10,6 +11,7 @@ type ArticleComponentProps = {
   title: string;
   subTitle?: string;
   style?: styles;
+  toWatch?: boolean;
   path: string;
 };
 
@@ -18,8 +20,15 @@ type ArticleProps = {
 };
 
 const ArticleComponent = (item: ArticleProps) => {
-  const { style, title, path, datePublishedOn, timePublished, thumbnail }: any =
-    item?.item;
+  const {
+    style,
+    title,
+    path,
+    datePublishedOn,
+    timePublished,
+    toWatch,
+    thumbnail,
+  }: any = item?.item;
 
   const width = style?.width || 350;
   const height = style?.height || 350;
@@ -37,6 +46,8 @@ const ArticleComponent = (item: ArticleProps) => {
       <div>
         <h3>{title}</h3>
       </div>
+
+      {toWatch && <ButtonWatch />}
     </div>
   );
 };

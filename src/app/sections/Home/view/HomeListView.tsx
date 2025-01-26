@@ -27,64 +27,66 @@ const HomeListView = () => {
       </div>
 
       {/* other components */}
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <RecentView />
+      <div className="space-y-20">
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <RecentView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <TrendingView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <TrendingView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <PoliticsView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <PoliticsView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <PoliceView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <PoliceView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <ProducersView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <ProducersView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <SportsView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <SportsView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <CelebrityView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <CelebrityView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <WordOfTheLourdView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <WordOfTheLourdView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <FeaturesView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <FeaturesView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <ForeignView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <ForeignView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <MoneyView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <MoneyView />
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-4">
-        <div className="col-span-2">
-          <MoreFromNewsView />
+        <div className="grid grid-cols-4">
+          <div className="col-span-2">
+            <MoreFromNewsView />
+          </div>
         </div>
       </div>
     </div>

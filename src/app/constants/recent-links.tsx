@@ -9,6 +9,7 @@ export const recentLinks = [
     datePublishedOn: "July 15, 2024",
     timePublished: "11:43 PM",
     thumbnail: "/images/recents-images/image1.png",
+    toWatch: true,
   },
   {
     id: 2,
@@ -18,5 +19,6 @@ export const recentLinks = [
     datePublishedOn: "July 15, 2024",
     timePublished: "8:55 PM",
     thumbnail: "/images/recents-images/image2.png",
+    toWatch: true,
   },
 ];
