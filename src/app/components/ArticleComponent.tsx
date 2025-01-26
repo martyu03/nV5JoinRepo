@@ -12,7 +12,9 @@ type ArticleComponentProps = {
   subTitle?: string;
   style?: styles;
   toWatch?: boolean;
+  headline?: string;
   path: string;
+  direction?: "row" | "col";
 };
 
 type ArticleProps = {
@@ -28,13 +30,36 @@ const ArticleComponent = (item: ArticleProps) => {
     timePublished,
     toWatch,
     thumbnail,
+    direction,
+    headline,
   }: any = item?.item;
 
   const width = style?.width || 350;
   const height = style?.height || 350;
 
+  if (direction === "row") {
+    return (
+      <div className="grid grid-cols-2 gap-3">
+        <div className="">
+          <Image
+            alt={title}
+            width={100}
+            src={thumbnail}
+            height={100}
+            className={`w-[${width}px] h-[${height}px]`}
+          />
+        </div>
+        <div className="">
+          <p className={`font-bold`}>
+            {title?.length >= 50 ? `${title?.slice(0, 50)}...` : title}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-1">
+    <div className={`space-y-1`}>
       <Image
         alt={title}
         width={100}
@@ -44,7 +69,7 @@ const ArticleComponent = (item: ArticleProps) => {
       />
 
       <div>
-        <h3>{title}</h3>
+        <h3 className={headline && "text-red-600 font-semibold"}>{title}</h3>
       </div>
 
       {toWatch && <ButtonWatch />}

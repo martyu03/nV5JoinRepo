@@ -8,12 +8,16 @@ const TrendingView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"Trending"} />
 
-      <div className="grid grid-cols-2">
-        {trendingLinks?.map((item) => (
-          <div className="">
+      <div className="grid grid-cols-2  ">
+        <div>
+          <ArticleComponent item={{ ...trendingLinks[0] }} />
+        </div>
+
+        <div className="space-y-3">
+          {trendingLinks?.slice(1)?.map((item) => (
             <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
