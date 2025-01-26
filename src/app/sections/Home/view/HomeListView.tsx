@@ -38,16 +38,19 @@ const HomeListView = () => {
             <TrendingView />
           </div>
         </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-4 gap-10">
+          <div className="col-span-1">
             <PoliticsView />
           </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+          <div className="col-span-1">
             <PoliceView />
           </div>
         </div>
+        {/* <div className="grid grid-cols-4">
+          <div className="col-span-2">
+           
+          </div>
+        </div> */}
         <div className="grid grid-cols-4">
           <div className="col-span-2">
             <ProducersView />

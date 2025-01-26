@@ -8,7 +8,7 @@ const PoliticsView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"Politics"} />
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1">
         {politicsLinks?.map((item) => (
           <div className="">
             <ArticleComponent item={{ ...item }} key={item?.id} />
