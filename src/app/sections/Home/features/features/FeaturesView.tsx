@@ -1,11 +1,11 @@
 import React from "react";
-import { producersLinks } from "@/app/constants/producers-links";
+import { featuresLinks } from "@/app/constants/features-links";
 import ArticleComponent from "@/app/components/ArticleComponent";
 
-const ProducersView = () => {
+const FeaturesView = () => {
   return (
     <div className="grid grid-cols-2">
-      {producersLinks?.map((item) => (
+      {featuresLinks?.map((item) => (
         <div className="">
           <ArticleComponent item={{ ...item }} key={item?.id} />
         </div>
@@ -14,4 +14,4 @@ const ProducersView = () => {
   );
 };
 
-export default ProducersView;
+export default FeaturesView;

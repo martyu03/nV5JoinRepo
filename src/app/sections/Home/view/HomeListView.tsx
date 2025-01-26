@@ -2,6 +2,17 @@ import React from "react";
 import HomeMainVideo from "./HomeMainVideo";
 import HomeStoriesView from "./HomeStoriesView";
 import RecentView from "../features/recent/RecentView";
+import TrendingView from "../features/trending/TrendingView";
+import CelebrityView from "../features/celebrity/CelebrityView";
+import ForeignView from "../features/foreign/ForeignView";
+import PoliticsView from "../features/politics/PoliticsView";
+import SportsView from "../features/sports/SportsView";
+import WordOfTheLourdView from "../features/wordofthelourd/WordOfTheLourdView";
+import PoliceView from "../features/police/PoliceView";
+import MoneyView from "../features/money/MoneyView";
+import MoreFromNewsView from "../features/morefromnews/MoreFromNewsView";
+import FeaturesView from "../features/features/FeaturesView";
+import ProducersView from "../features/producers/ProducersView";
 
 const HomeListView = () => {
   return (
@@ -19,6 +30,61 @@ const HomeListView = () => {
       <div className="grid grid-cols-4">
         <div className="col-span-2">
           <RecentView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <TrendingView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <PoliticsView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <PoliceView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <ProducersView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <SportsView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <CelebrityView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <WordOfTheLourdView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <FeaturesView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <ForeignView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <MoneyView />
+        </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <MoreFromNewsView />
         </div>
       </div>
     </div>

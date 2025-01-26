@@ -20,7 +20,7 @@ import Lourd from "./components/Lourd";
 import Features from "./components/Features";
 import Foreign from "./components/Foreign";
 import Money from "./components/Money";
-import MoreNews from "./components/MoreFromNews";
+import MoreFromNews from "./components/MoreFromNews";
 import HomeView from "./pages/Home";
 
 interface HomeProps {

@@ -1,11 +1,11 @@
 import React from "react";
-import { producersLinks } from "@/app/constants/producers-links";
+import { morefromnewsLinks } from "@/app/constants/morefromnews-links";
 import ArticleComponent from "@/app/components/ArticleComponent";
 
-const ProducersView = () => {
+const MoreFromNewsView = () => {
   return (
     <div className="grid grid-cols-2">
-      {producersLinks?.map((item) => (
+      {morefromnewsLinks?.map((item) => (
         <div className="">
           <ArticleComponent item={{ ...item }} key={item?.id} />
         </div>
@@ -14,4 +14,4 @@ const ProducersView = () => {
   );
 };
 
-export default ProducersView;
+export default MoreFromNewsView;
