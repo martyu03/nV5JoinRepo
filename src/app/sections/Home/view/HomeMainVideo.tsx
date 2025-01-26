@@ -18,13 +18,6 @@ const HomeMainVideo = () => {
         allowFullScreen
         style={styles.iframe}
       />
-      <iframe
-        src="https://www.youtube.com/watch?v=fJgrZxi4Jws&t=1s"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        style={styles.iframe}
-      />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import HomeMainVideo from "./HomeMainVideo";
 import HomeStoriesView from "./HomeStoriesView";
+import RecentView from "../features/recent/RecentView";
 
 const HomeListView = () => {
   return (
@@ -11,6 +12,13 @@ const HomeListView = () => {
         </div>
         <div className="md:col-span-1">
           <HomeStoriesView />
+        </div>
+      </div>
+
+      {/* other components */}
+      <div className="grid grid-cols-4">
+        <div className="col-span-2">
+          <RecentView />
         </div>
       </div>
     </div>
