@@ -1,27 +1,27 @@
 "use client";
 
-import { useEffect } from 'react';
-import Head from 'next/head';
-import VideoDefault from './components/VideoDefault';
-import GridDefault from './components/GridDefault';
-import SocialFeed from './components/SocialFeed';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Bottombar from './components/nav-bar/BottomBar';
-import Topbar from './components/nav-bar/TopBar';
-import Recent from './components/Recent';
-import Trending from './components/Trending';
-import Politics from './components/Politics';
-import Police from './components/Police';
-import Producers from './components/Producers';
-import Sports from './components/Sports';
-import Celebrity from './components/Celebrity';
-import Lourd from './components/Lourd';
-import Features from './components/Features';
-import Foreign from './components/Foreign';
-import Money from './components/Money';
-import MoreNews from './components/MoreFromNews';
-import HomeView from './pages/Home';
+import { useEffect } from "react";
+import Head from "next/head";
+import VideoDefault from "./components/VideoDefault";
+import GridDefault from "./components/GridDefault";
+import SocialFeed from "./components/SocialFeed";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Bottombar from "./components/nav-bar/BottomBar";
+import Topbar from "./components/nav-bar/TopBar";
+import Recent from "./components/Recent";
+import Trending from "./components/Trending";
+import Politics from "./components/Politics";
+import Police from "./components/Police";
+import Producers from "./components/Producers";
+import Sports from "./components/Sports";
+import Celebrity from "./components/Celebrity";
+import Lourd from "./components/Lourd";
+import Features from "./components/Features";
+import Foreign from "./components/Foreign";
+import Money from "./components/Money";
+import MoreNews from "./components/MoreFromNews";
+import HomeView from "./pages/Home";
 
 interface HomeProps {
   liveData: any;
@@ -87,7 +87,7 @@ export default function Home({
   }, []);
 
   return (
-    <div className="container w-full bg-pink-200 p-5">
+    <div className="container w-full ">
       {/* Navigation Bar */}
       {/* <div className="w-full fixed top-0 flex flex-col z-50">
         <Topbar />

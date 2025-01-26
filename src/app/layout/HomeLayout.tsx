@@ -15,7 +15,7 @@ const HomeLayout = ({ children }: any) => {
         <Topbar />
         <Bottombar />
       </div>
-      <div className="w-full bg-orange-200 p-2">{children}</div>
+      <div className="w-full ">{children}</div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { HomeListView } from "../sections/Home";
 
 const HomeView = () => {
   return (
-    <div className="w-full bg-blue-500 ">
+    <div className="w-full  ">
       <HomeListView />
     </div>
   );
