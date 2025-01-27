@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const PoliceView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Police"} />
+      <FeatureHeader title={"POLICE"} />
 
       <div className="grid grid-cols-2">
         {policeLinks?.map((item) => (

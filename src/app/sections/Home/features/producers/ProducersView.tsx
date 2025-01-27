@@ -6,9 +6,9 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const ProducersView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Producer's Pick"} />
+      <FeatureHeader title={"PRODUCER'S PICK"} />
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-2">
         {producersLinks?.map((item) => (
           <div className="">
             <ArticleComponent item={{ ...item }} key={item?.id} />

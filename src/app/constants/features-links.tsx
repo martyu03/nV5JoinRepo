@@ -8,5 +8,6 @@ export const featuresLinks = [
         thumbnail: "/images/features-images/features.png",
         datePublishedOn: "January 15, 2025",
         timePublished: "9:13 PM",
+        toWatch: true,
     }
 ]

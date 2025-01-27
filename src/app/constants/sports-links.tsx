@@ -8,5 +8,6 @@ export const sportsLinks = [
         thumbnail: "/images/sports-images/sports.png",
         datePublishedOn: "January 13, 2025",
         timePublished: "11:44 PM",
+        toWatch: true,
     }
 ]

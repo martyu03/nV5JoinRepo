@@ -8,5 +8,6 @@ export const celebrityLinks = [
         thumbnail: "/images/celebrity-images/celebrity.png",
         datePublishedOn: "January 17, 2025",
         timePublished: "11:42 PM",
+        toWatch: true,
     }
 ]

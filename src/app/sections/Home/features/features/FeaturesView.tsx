@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const FeaturesView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Features"} />
+      <FeatureHeader title={"FEATURES"} />
 
       <div className="grid grid-cols-2">
         {featuresLinks?.map((item) => (

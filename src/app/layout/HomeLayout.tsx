@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 const HomeLayout = ({ children }: any) => {
   return (
     <div>
-      <div className="fixed w-full z-50">
+      <div className="w-full z-50">
         <Topbar />
         <Bottombar />
       </div>
-      <div className="w-full ">{children}</div>
+      <div className="w-full">{children}</div>
     </div>
   );
 };

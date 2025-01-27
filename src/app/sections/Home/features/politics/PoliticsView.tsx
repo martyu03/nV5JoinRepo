@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const PoliticsView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Politics"} />
+      <FeatureHeader title={"POLITICS"} />
 
       <div className="grid grid-cols-1">
         {politicsLinks?.map((item) => (

@@ -8,6 +8,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews1.png",
         datePublishedOn: "December 20, 2024",
         timePublished: "8:31 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 2,
@@ -16,6 +18,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews2.png",
         datePublishedOn: "August 30, 2024",
         timePublished: "9:31 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 3,
@@ -24,6 +28,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews3.png",
         datePublishedOn: "August 29, 2024",
         timePublished: "6:27 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 4,
@@ -32,6 +38,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews4.png",
         datePublishedOn: "August 19, 2024",
         timePublished: "8:50 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 5,
@@ -40,6 +48,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews5.png",
         datePublishedOn: "August 18, 2024",
         timePublished: "3:58 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 6,
@@ -48,6 +58,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews6.png",
         datePublishedOn: "December 09, 2024",
         timePublished: "11:11 PM",
+        direction: "row",
+        toWatch: true,
     },
     {
         id: 7,
@@ -56,6 +68,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews7.png",
         datePublishedOn: "August 29, 2024",
         timePublished: "10:17 PM",
+        direction: "row",
+        toWatch: true,
     }, 
     {
         id: 8,
@@ -64,6 +78,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews8.png",
         datePublishedOn: "August 19, 2024",
         timePublished: "11:28 PM",
+        direction: "row",
+        toWatch: true,
     }, 
     {
         id: 9,
@@ -72,6 +88,8 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews9.png",
         datePublishedOn: "August 19, 2024",
         timePublished: "4:21 PM",
+        direction: "row",
+        toWatch: true,
     }, 
     {
         id: 10,
@@ -80,5 +98,7 @@ export const morefromnewsLinks = [
         thumbnail: "/images/morefromnews-images/morefromnews10.png",
         datePublishedOn: "August 16, 2024",
         timePublished: "10:55 PM",
+        direction: "row",
+        toWatch: true,
     } 
 ]

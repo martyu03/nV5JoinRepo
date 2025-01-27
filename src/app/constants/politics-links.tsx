@@ -8,6 +8,7 @@ export const politicsLinks = [
         thumbnail: "/images/politics-images/politics1.png",
         datePublishedOn: "January 17, 2025",
         timePublished: "11:41 PM",
+        toWatch: true,
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ export const politicsLinks = [
         thumbnail: "/images/politics-images/politics2.png",
         datePublishedOn: "January 17, 2025",
         timePublished: "11:33 PM",
+        toWatch: true,
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ export const politicsLinks = [
         thumbnail: "/images/politics-images/politics3.png",
         datePublishedOn: "January 17, 2025",
         timePublished: "8:13 PM",
+        toWatch: true,
     },
     {
         id: 4,
@@ -32,5 +35,6 @@ export const politicsLinks = [
         thumbnail: "/images/politics-images/politics4.png",
         datePublishedOn: "January 16, 2025",
         timePublished: "9:21 PM",
+        toWatch: true,
     }
 ]

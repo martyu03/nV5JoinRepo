@@ -8,5 +8,6 @@ export const moneyLinks = [
         thumbnail: "/images/money-images/money.png",
         datePublishedOn: "January 17, 2025",
         timePublished: "8:40 PM",
+        toWatch: true,
     }
 ]

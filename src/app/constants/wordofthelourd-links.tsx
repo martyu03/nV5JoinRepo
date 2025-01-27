@@ -8,5 +8,6 @@ export const wordofthelourdLinks = [
         thumbnail: "/images/wordofthelourd-images/wordofthelourd.png",
         datePublishedOn: "March 01, 2024",
         timePublished: "9:15 PM",
+        toWatch: true,
     }
 ]

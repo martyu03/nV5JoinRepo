@@ -6,9 +6,9 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const TrendingView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Trending"} />
+      <FeatureHeader title={"TRENDING"} />
 
-      <div className="grid grid-cols-2  ">
+      <div className="grid grid-cols-2 gap-2">  
         <div>
           <ArticleComponent item={{ ...trendingLinks[0] }} />
         </div>

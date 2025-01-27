@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const ForeignView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Foreign"} />
+      <FeatureHeader title={"FOREIGN"} />
 
       <div className="grid grid-cols-2">
         {foreignLinks?.map((item) => (

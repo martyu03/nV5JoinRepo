@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const WordOfTheLourdView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Word of the lourd"} />
+      <FeatureHeader title={"WORD OF THE LOURD"} />
 
       <div className="grid grid-cols-2">
         {wordofthelourdLinks?.map((item) => (

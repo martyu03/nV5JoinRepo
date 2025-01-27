@@ -11,6 +11,7 @@ export const trendingLinks = [
     timePublished: "10:36 PM",
     direction: "col",
     headline: true,
+    toWatch: true,
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const trendingLinks = [
     datePublishedOn: "January 16, 2025",
     timePublished: "4:58 PM",
     direction: "row",
+    toWatch: true,
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ export const trendingLinks = [
     datePublishedOn: "January 16, 2025",
     timePublished: "12:01 PM",
     direction: "row",
+    toWatch: true,
   },
   {
     id: 4,
@@ -41,6 +44,7 @@ export const trendingLinks = [
     datePublishedOn: "January 10, 2025",
     timePublished: "4:25 PM",
     direction: "row",
+    toWatch: true,
   },
   {
     id: 5,
@@ -50,5 +54,6 @@ export const trendingLinks = [
     datePublishedOn: "January 09, 2025",
     timePublished: "8:45 PM",
     direction: "row",
+    toWatch: true,
   },
 ];

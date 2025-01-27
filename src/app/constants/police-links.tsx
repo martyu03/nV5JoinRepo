@@ -8,5 +8,6 @@ export const policeLinks = [
         thumbnail: "/images/police-images/police.png",
         datePublishedOn: "April 20, 2017",
         timePublished: "12:40 PM",
+        toWatch: true,
     }
 ]

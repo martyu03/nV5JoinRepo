@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const MoneyView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Money"} />
+      <FeatureHeader title={"MONEY"} />
 
       <div className="grid grid-cols-2">
         {moneyLinks?.map((item) => (

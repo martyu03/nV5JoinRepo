@@ -6,8 +6,8 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const RecentView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Recent"} />
-      <div className="grid grid-cols-2">
+      <FeatureHeader title={"RECENT"} />
+      <div className="grid grid-cols-2 gap-2">
         {recentLinks?.map((item) => (
           <div className="">
             <ArticleComponent item={{ ...item }} key={item?.id} />

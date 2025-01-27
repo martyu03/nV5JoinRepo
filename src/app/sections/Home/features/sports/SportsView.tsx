@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const SportsView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Sports"} />
+      <FeatureHeader title={"SPORTS"} />
 
       <div className="grid grid-cols-2">
         {sportsLinks?.map((item) => (

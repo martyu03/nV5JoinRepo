@@ -18,7 +18,7 @@ const HomeStoriesView = () => {
 
 const HomeStoriesItems = ({ item }) => {
   return (
-    <div className="p-3 border-2 border-t-slate-50">
+    <div className="p-3 border-2 border-t-slate-50 hover:text-red-600">
       <Link href={item.path} target="_blank">
         <h3 className="font-semibold">{item?.title}</h3>
         <div className="flex items-center gap-2 text-slate-400">

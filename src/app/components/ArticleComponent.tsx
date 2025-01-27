@@ -59,7 +59,7 @@ const ArticleComponent = (item: ArticleProps) => {
   }
 
   return (
-    <div className={`space-y-1`}>
+    <div className={`space-y-1 space-x-1`}>
       <Image
         alt={title}
         width={100}

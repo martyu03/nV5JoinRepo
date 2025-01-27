@@ -6,7 +6,7 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const CelebrityView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"Celebrity"} />
+      <FeatureHeader title={"CELEBRITY"} />
 
       <div className="grid grid-cols-2">
         {celebrityLinks?.map((item) => (

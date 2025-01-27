@@ -8,6 +8,7 @@ export const producersLinks = [
         thumbnail: "/images/producers-images/producers1.png",
         datePublishedOn: "December 18, 2024",
         timePublished: "07:41 PM",
+        toWatch: true,
     },
     {
         id: 2,
@@ -16,5 +17,6 @@ export const producersLinks = [
         thumbnail: "/images/producers-images/producers2.png",
         datePublishedOn: "December 02, 2024",
         timePublished: "7:33 PM",
+        toWatch: true,
     }
 ]

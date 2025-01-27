@@ -8,5 +8,6 @@ export const foreignLinks = [
         thumbnail: "/images/foreign-images/foreign.png",
         datePublishedOn: "January 22, 2025",
         timePublished: "6:08 PM",
+        toWatch: true,
     }
 ]
