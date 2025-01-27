@@ -29,7 +29,7 @@ const HomeListView = () => {
         </div>
       </div>
       <FeatureHeader styles={{
-        height:14
+        height: "[65px]"
       }} bgcolor="#EEEEEE" title="FEATURES"/>
 
       {/* other components */}

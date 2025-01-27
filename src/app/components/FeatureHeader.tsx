@@ -1,7 +1,7 @@
 import React from "react";
 
 type styleProps = {
-  height?:number;
+  height?:string;
   width?:number;
 }
 
@@ -18,7 +18,8 @@ const FeatureHeader = ({ title, bgcolor, styles }: FeatureHeaderProps) => {
       <div className=" bg-[#EF4135] h-full flex items-center px-4 text-white">
         <p className="w-auto">{title}</p>
       </div>
-     <div className={` bg-[${bgcolor || '#333333'}] h-full flex-1`}></div>
+     <div className={`${bgcolor ? 'bg-['+bgcolor+']' : 'bg-sky-950'} h-full flex-1`} > <p className="invisible">grid
+      </p> </div>
     </div>
   );
 };
