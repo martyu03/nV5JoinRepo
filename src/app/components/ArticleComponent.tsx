@@ -34,8 +34,8 @@ const ArticleComponent = (item: ArticleProps) => {
     headline,
   }: any = item?.item;
 
-  const width = style?.width || 350;
-  const height = style?.height || 350;
+  const width = style?.width || 400;
+  const height = style?.height || 400;
 
   if (direction === "row") {
     return (

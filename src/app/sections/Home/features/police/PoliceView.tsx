@@ -8,11 +8,12 @@ const PoliceView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"POLICE"} />
 
-      <div className="grid grid-cols-2">
+      <div>
         {policeLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent
+            item={{ ...item, direction: "row" }}
+            key={item?.id}
+          />
         ))}
       </div>
     </div>

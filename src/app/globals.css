@@ -42,8 +42,14 @@ body {
   transition: color 0.3s ease;
 }
 
-.bottom-bar .menu a.active {
+/* .bottom-bar .menu a.active {
   color: #ffffff;
+} */
+
+.active {
+  background-color: white;
+  color: #df350f;
+  border-bottom: solid rgb(188, 184, 184) 1px;
 }
 
 .bottom-bar .menu a:hover {

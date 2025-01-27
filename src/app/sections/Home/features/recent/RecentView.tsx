@@ -7,11 +7,9 @@ const RecentView = () => {
   return (
     <div className="space-y-3">
       <FeatureHeader title={"RECENT"} />
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-3">
         {recentLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent item={{ ...item }} key={item?.id} />
         ))}
       </div>
     </div>

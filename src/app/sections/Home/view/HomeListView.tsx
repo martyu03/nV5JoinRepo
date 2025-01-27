@@ -28,61 +28,36 @@ const HomeListView = () => {
       </div>
 
       {/* other components */}
-      <div className="grid grid-cols-6 container">
-        <div className="space-y-20 container col-span-4">
+      <div className="grid grid-cols-6 container gap-2">
+        <div className="space-y-7 container col-span-4">
           <div>
             <RecentView />
           </div>
           <div>
             <TrendingView />
           </div>
-          <div className="flex items-center gap-10">
+          <div className={"grid grid-cols-2 gap-2"}>
             <PoliticsView />
             <PoliceView />
           </div>
 
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <ProducersView />
-            </div>
+          <div>
+            <ProducersView />
           </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <SportsView />
-            </div>
+          <div className="grid grid-cols-2 gap-2">
+            <SportsView />
+            <CelebrityView />
+            <WordOfTheLourdView />
+            <FeaturesView />
+            <ForeignView />
+            <MoneyView />
           </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <CelebrityView />
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <WordOfTheLourdView />
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <FeaturesView />
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <ForeignView />
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <MoneyView />
-            </div>
-          </div>
-          <div className="grid grid-cols-4">
-            <div className="col-span-2">
-              <MoreFromNewsView />
-            </div>
+
+          <div>
+            <MoreFromNewsView />
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2 space-y-3">
           <VerticalAds />
           <VerticalAds />
         </div>

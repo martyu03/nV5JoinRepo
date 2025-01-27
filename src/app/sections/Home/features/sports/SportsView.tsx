@@ -8,11 +8,9 @@ const SportsView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"SPORTS"} />
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1">
         {sportsLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent item={{ ...item }} key={item?.id} />
         ))}
       </div>
     </div>

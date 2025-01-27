@@ -8,11 +8,12 @@ const PoliticsView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"POLITICS"} />
 
-      <div className="grid grid-cols-1">
+      <div className="space-y-3">
         {politicsLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent
+            item={{ ...item, direction: "row" }}
+            key={item?.id}
+          />
         ))}
       </div>
     </div>

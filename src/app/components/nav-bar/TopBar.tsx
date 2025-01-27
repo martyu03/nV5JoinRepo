@@ -8,9 +8,9 @@ export default function Topbar() {
   // const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
-      <nav>
-        <ul className={`px-10 bg-red-600 flex text-white`}>
+    <div className="bg-red-600">
+      <nav className="container">
+        <ul className={`px-10  flex text-white`}>
           {topbarLinks?.map((item: any, index: number) => (
             <TopbarLinkItem key={item?.id} {...item} />
           ))}
@@ -23,8 +23,8 @@ export default function Topbar() {
 
 const TopbarLinkItem = (item) => {
   return (
-    <li className="py-1 px-2 border border-r-white text-xs">
-      <Link href={item?.path}>
+    <li className="py-1 px-2 border-r border-r-white text-xs">
+      <Link href={item?.path} className="uppercase font-thin">
         {item?.label ? item?.label : <i className={item?.icon}></i>}
       </Link>
     </li>

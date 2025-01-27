@@ -8,11 +8,9 @@ const MoneyView = () => {
     <div className="space-y-3">
       <FeatureHeader title={"MONEY"} />
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1">
         {moneyLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent item={{ ...item }} key={item?.id} />
         ))}
       </div>
     </div>

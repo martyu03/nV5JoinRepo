@@ -6,13 +6,11 @@ import FeatureHeader from "@/app/components/FeatureHeader";
 const MoreFromNewsView = () => {
   return (
     <div className="space-y-3">
-      <FeatureHeader title={"MORE FROM NEWS"} />
+      <FeatureHeader title={"MORE FROM NEWS5"} />
 
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 space-y-1">
         {morefromnewsLinks?.map((item) => (
-          <div className="">
-            <ArticleComponent item={{ ...item }} key={item?.id} />
-          </div>
+          <ArticleComponent item={{ ...item }} key={item?.id} />
         ))}
       </div>
     </div>
