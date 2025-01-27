@@ -15,6 +15,7 @@ import FeaturesView from "../features/features/FeaturesView";
 import ProducersView from "../features/producers/ProducersView";
 import VerticalAds from "@/app/components/Ads/VerticalAds";
 import HorizontalAds from "@/app/components/Ads/HorizontalAds";
+import FeatureHeader from "@/app/components/FeatureHeader";
 
 const HomeListView = () => {
   return (
@@ -27,6 +28,9 @@ const HomeListView = () => {
           <HomeStoriesView />
         </div>
       </div>
+      <FeatureHeader styles={{
+        height:14
+      }} bgcolor="#EEEEEE" title="FEATURES"/>
 
       {/* other components */}
       <div className="grid grid-cols-6 container gap-2">
