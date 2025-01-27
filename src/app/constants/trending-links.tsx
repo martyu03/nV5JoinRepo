@@ -3,8 +3,8 @@ import path from "path";
 export const trendingLinks = [
   {
     id: 1,
-    title:
-      "Higit 100 medalya mula sa Paris Olympics, isinauli dahil sa kalawang at pagkasira",
+    title: "Higit 100 medalya mula sa Paris Olympics, isinauli dahil sa kalawang at pagkasira",
+    subTitle: "Mahigit 100 na atleta mula sa #Paris2024 Olympics ang nagbalik ng kani-kanilang medalya dahil sa mabilis na pagkasira nito, kabilang ang kalawang at chipping. Inanunsyo ng Monnaie de Paris na papalitan ang lahat ng mga ito. #News5",
     path: "https://news.tv5.com.ph/trending/watch/MxSrMS7vm8U/higit-100-medalya-mula-sa-paris-olympics-isinauli-dahil-sa-kalawang-at-pagkasira/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
     thumbnail: "/images/trending-images/trending1.png",
     datePublishedOn: "January 17, 2025",
@@ -15,8 +15,8 @@ export const trendingLinks = [
   },
   {
     id: 2,
-    title:
-      "Security guard ng mall na nagpaalis sa batang nagtitinda ng sampaguita, tinanggal na sa trabaho",
+    title: "Security guard ng mall na nagpaalis sa batang nagtitinda ng sampaguita, tinanggal na sa trabaho",
+    subTitle: "#FrontlineExpress | Tinanggal na sa trabaho ang security guard ng isang mall sa Mandaluyong City dahil sa pagpapaalis sa isang estudyanteng natitinda ng sampaguita. #News5 Follow News5 and stay updated with the latest stories!",
     path: "https://news.tv5.com.ph/trending/watch/_j9yDe9R6nc/security-guard-ng-mall-na-nagpaalis-sa-batang-nagtitinda-ng-sampaguita-tinanggal-na-sa-trabaho/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
     thumbnail: "/images/trending-images/trending2.png",
     datePublishedOn: "January 16, 2025",
@@ -26,8 +26,8 @@ export const trendingLinks = [
   },
   {
     id: 3,
-    title:
-      "Aso, dumu-duty bilang cashier sa bistro sa Nueva Ecija | Frontline Tonight",
+    title: "Aso, dumu-duty bilang cashier sa bistro sa Nueva Ecija | Frontline Tonight",
+    subTitle: "#FrontlineTonight | Isang aso ang dumu-duty bilang cashier sa isang bistro sa Nueva Ecija! #News5 Follow News5 and stay updated with the latest stories!",
     path: "https://news.tv5.com.ph/trending/watch/dWnmUklW3Bg/aso-dumu-duty-bilang-cashier-sa-bistro-sa-nueva-ecija--frontline-tonight/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
     thumbnail: "/images/trending-images/trending3.png",
     datePublishedOn: "January 16, 2025",
@@ -37,8 +37,8 @@ export const trendingLinks = [
   },
   {
     id: 4,
-    title:
-      "35-kilo python sa kisame ng tindahan, nakuha ng mga bumbero sa Bohol",
+    title: "35-kilo python sa kisame ng tindahan, nakuha ng mga bumbero sa Bohol",
+    subTitle: "Isang malaking reticulated python na may bigat na 35 kilos ang natagpuan sa kisame ng isang tindahan sa Tagbilaran, #Bohol. Kinailangang sirain ng mga bumbero ang kisame upang makuha ito. #News5",
     path: "https://news.tv5.com.ph/trending/watch/7KpmM4BiIcI/35-kilo-python-sa-kisame-ng-tindahan-nakuha-ng-mga-bumbero-sa-bohol/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
     thumbnail: "/images/trending-images/trending4.png",
     datePublishedOn: "January 10, 2025",
@@ -49,6 +49,7 @@ export const trendingLinks = [
   {
     id: 5,
     title: "Tatlong wildfires, sabay-sabay na nanalasa sa California",
+    subTitle: "Tatlong #wildfires ang nagdulot ng malawakang pagkasira sa #SouthernCalifornia. Ang #EatonFire, #PalisadesFire, at #SunsetFire ay kumalat sa loob ng dalawang araw at maraming residente ng #LosAngeles County ang napilitang lumikas. #News5",
     path: "https://news.tv5.com.ph/trending/watch/7LHJR2BI-dc/tatlong-wildfires-sabay-sabay-na-nanalasa-sa-california/PL5HOfFlVmenYIIpkdsIyQsPJkhoSi8yjN",
     thumbnail: "/images/trending-images/trending5.png",
     datePublishedOn: "January 09, 2025",

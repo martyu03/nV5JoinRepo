@@ -10,6 +10,7 @@ type styles = {
 type ArticleComponentProps = {
   title: string;
   subTitle?: string;
+  thumbnail: string;
   style?: styles;
   toWatch?: boolean;
   headline?: string;
@@ -32,6 +33,7 @@ const ArticleComponent = (item: ArticleProps) => {
     thumbnail,
     direction,
     headline,
+    subTitle,
   }: any = item?.item;
 
   const width = style?.width || 400;
@@ -53,6 +55,9 @@ const ArticleComponent = (item: ArticleProps) => {
           <p className={`font-bold`}>
             {title?.length >= 50 ? `${title?.slice(0, 50)}...` : title}
           </p>
+          <p className={`text-slate-400`}>
+          {subTitle?.length >= 50 ? `${subTitle?.slice(0, 50)}...` : title}
+          </p>
         </div>
       </div>
     );
@@ -69,9 +74,10 @@ const ArticleComponent = (item: ArticleProps) => {
       />
 
       <div>
-        <h3 className={headline && "text-red-600 font-semibold"}>{title}</h3>
+        <h3 className={headline && "font-semibold"}>{title}</h3>
       </div>
 
+      <h3 className={headline && "font-semibold text-slate-400"}>{subTitle}</h3>
       {toWatch && <ButtonWatch />}
     </div>
   );

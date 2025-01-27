@@ -7,7 +7,7 @@ const HomeStoriesView = () => {
   return (
     <div className="w-full">
       <h1 className="text-center font-bold text-red-500 text-3xl">TOP STORIES</h1>
-      <div className="">
+      <div className="max-h-[715px] overflow-y-auto custom-scrollbar">
         {topstoriesLinks?.map((item: any, index: number) => (
           <HomeStoriesItems key={index} item={item} />
         ))}

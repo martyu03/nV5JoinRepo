@@ -110,17 +110,17 @@ body {
 }
 
 /* width */
-.top-stories-scrollbar::-webkit-scrollbar {
+.custom-scrollbar::-webkit-scrollbar {
   width: 5px;
 }
 
 /* Track */
-.top-stories-scrollbar::-webkit-scrollbar-track {
+.custom-scrollbar::-webkit-scrollbar-track {
   background: #000;
 }
 
 /* Handle */
-.top-stories-scrollbar::-webkit-scrollbar-thumb {
+.custom-scrollbar::-webkit-scrollbar-thumb {
   background: #ef4135;
 }
 
