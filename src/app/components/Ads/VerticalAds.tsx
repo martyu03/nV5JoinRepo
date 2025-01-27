@@ -5,7 +5,7 @@ const VerticalAds = () => {
     <div
       className={"h-80 w-full bg-slate-300 flex items-center justify-center"}
     >
-      <p className="writing-mode-vertical-rl">ADS HERE!</p>
+      <p className="writing-mode-vertical-rl text-white">ADS HERE!</p>
     </div>
   );
 };

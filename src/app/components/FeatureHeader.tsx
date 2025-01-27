@@ -18,7 +18,7 @@ const FeatureHeader = ({ title, bgcolor, styles }: FeatureHeaderProps) => {
       <div className=" bg-[#EF4135] h-full flex items-center px-4 text-white">
         <p className="w-auto">{title}</p>
       </div>
-     <div className={`${bgcolor ? 'bg-['+bgcolor+']' : 'bg-sky-950'} h-full flex-1`} > <p className="invisible">grid
+     <div className={`${bgcolor ? 'bg-['+bgcolor+']' : 'bg-[#333333]'} h-full flex-1`} > <p className="invisible">grid
       </p> </div>
     </div>
   );

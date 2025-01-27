@@ -16,6 +16,7 @@ import ProducersView from "../features/producers/ProducersView";
 import VerticalAds from "@/app/components/Ads/VerticalAds";
 import HorizontalAds from "@/app/components/Ads/HorizontalAds";
 import FeatureHeader from "@/app/components/FeatureHeader";
+import SocialView from "../features/social/SocialView";
 
 const HomeListView = () => {
   return (
@@ -66,7 +67,8 @@ const HomeListView = () => {
             <MoreFromNewsView />
           </div>
         </div>
-        <div className="col-span-2 space-y-3">
+        <div className="col-span-2 space-y-3 pt-2">
+          <SocialView />
           <VerticalAds />
           <VerticalAds />
         </div>
