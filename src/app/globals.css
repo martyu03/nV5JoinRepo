@@ -3,23 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('/fonts/ProximaNova-Regular.otf') format('opentype');
+  font-family: "Proxima Nova";
+  src: url("/fonts/ProximaNova-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
 }
-
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 :root {
   --color-eins: #1a1a1a;
@@ -27,26 +32,26 @@ body {
 }
 
 .bottom-bar {
-  background-color: #333333; 
+  background-color: #333333;
   color: #ffffff;
 }
 
 .bottom-bar .menu a {
-  color: #ffffff; 
-  text-decoration: none; 
-  transition: color 0.3s ease; 
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .bottom-bar .menu a.active {
-  color: #ffffff; 
-} 
+  color: #ffffff;
+}
 
 .bottom-bar .menu a:hover {
-  color: #df350f; 
+  color: #df350f;
 }
 
 .logo img {
-  display: inline-block; 
+  display: inline-block;
   width: 225px;
   height: 78.89px;
 }
@@ -62,7 +67,7 @@ body {
 }
 
 .sidebar {
-  width: 300px; 
+  width: 300px;
   padding: 100px;
   background-color: #f4f4f4;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -98,7 +103,6 @@ body {
   align-items: center;
 }
 
-
 /* width */
 .top-stories-scrollbar::-webkit-scrollbar {
   width: 5px;
@@ -106,19 +110,15 @@ body {
 
 /* Track */
 .top-stories-scrollbar::-webkit-scrollbar-track {
-  background: #000; 
+  background: #000;
 }
- 
+
 /* Handle */
 .top-stories-scrollbar::-webkit-scrollbar-thumb {
-  background: #ef4135; 
+  background: #ef4135;
 }
 
 /* Handle on hover */
 .top-stories-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #000; 
+  background: #000;
 }
-
-
-
-

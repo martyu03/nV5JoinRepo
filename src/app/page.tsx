@@ -87,7 +87,7 @@ export default function Home({
   }, []);
 
   return (
-    <div className="container w-full ">
+    <div className=" w-full ">
       {/* Navigation Bar */}
       {/* <div className="w-full fixed top-0 flex flex-col z-50">
         <Topbar />

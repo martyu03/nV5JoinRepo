@@ -13,11 +13,12 @@ import MoneyView from "../features/money/MoneyView";
 import MoreFromNewsView from "../features/morefromnews/MoreFromNewsView";
 import FeaturesView from "../features/features/FeaturesView";
 import ProducersView from "../features/producers/ProducersView";
+import VerticalAds from "@/app/components/Ads/VerticalAds";
 
 const HomeListView = () => {
   return (
-    <div className="w-full">
-      <div className="grid w-full grid-cols-1  md:grid-cols-4 ">
+    <div>
+      <div className=" grid w-full grid-cols-1  md:grid-cols-4 ">
         <div className="md:col-span-3">
           <HomeMainVideo />
         </div>
@@ -27,63 +28,63 @@ const HomeListView = () => {
       </div>
 
       {/* other components */}
-      <div className="space-y-20">
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+      <div className="grid grid-cols-6 container">
+        <div className="space-y-20 container col-span-4">
+          <div>
             <RecentView />
           </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
+          <div>
             <TrendingView />
           </div>
-        </div>
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-1">
+          <div className="flex items-center gap-10">
             <PoliticsView />
-          </div>
-          <div className="col-span-1">
             <PoliceView />
           </div>
+
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <ProducersView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <SportsView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <CelebrityView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <WordOfTheLourdView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <FeaturesView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <ForeignView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <MoneyView />
+            </div>
+          </div>
+          <div className="grid grid-cols-4">
+            <div className="col-span-2">
+              <MoreFromNewsView />
+            </div>
+          </div>
         </div>
-        {/* <div className="grid grid-cols-4">
-          <div className="col-span-2">
-           
-          </div>
-        </div> */}
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
-            <ProducersView />
-          </div>
-        </div>
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-1">
-            <SportsView />
-          </div>
-          <div className="col-span-1">
-            <CelebrityView />
-          </div>
-        </div>
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-1">
-            <WordOfTheLourdView />
-          </div>
-          <div className="col-span-1">
-            <FeaturesView />
-          </div>
-        </div>
-        <div className="grid grid-cols-4 gap-10">
-          <div className="col-span-1">
-            <ForeignView />
-          </div>
-          <div className="col-span-1">
-            <MoneyView />
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-2">
-            <MoreFromNewsView />
-          </div>
+        <div className="col-span-2">
+          <VerticalAds />
+          <VerticalAds />
         </div>
       </div>
     </div>
