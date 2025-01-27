@@ -17,6 +17,7 @@ type ArticleComponentProps = {
   headline?: string;
   path: string;
   direction?: "row" | "col";
+  textLength: number;
 };
 
 type ArticleProps = {
@@ -35,6 +36,7 @@ const ArticleComponent = (item: ArticleProps) => {
     direction,
     headline,
     subTitle,
+    textLength,
   }: any = item?.item;
 
   const width = style?.width || 400;
@@ -79,7 +81,7 @@ const ArticleComponent = (item: ArticleProps) => {
       </div>
 
       <h3 className={headline && "font-semibold text-slate-400"}>
-        {truncateText(subTitle, 70)}
+        {truncateText(subTitle, textLength)}
       </h3>
       {toWatch && <ButtonWatch />}
     </div>
