@@ -15,7 +15,7 @@ const TrendingView = () => {
 
         <div className="space-y-3">
           {trendingLinks?.slice(1)?.map((item) => (
-            <ArticleComponent item={{ ...item }} key={item?.id} />
+            <ArticleComponent item={{ ...item, textLength: 90 }} key={item?.id} />
           ))}
         </div>
       </div>

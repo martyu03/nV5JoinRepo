@@ -10,7 +10,7 @@ const CelebrityView = () => {
 
       <div className="grid grid-cols-1">
         {celebrityLinks?.map((item) => (
-          <ArticleComponent item={{ ...item }} key={item?.id} />
+          <ArticleComponent item={{ ...item, textLength: 90 }} key={item?.id} />
         ))}
       </div>
     </div>

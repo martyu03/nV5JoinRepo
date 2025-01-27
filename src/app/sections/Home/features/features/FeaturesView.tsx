@@ -10,7 +10,7 @@ const FeaturesView = () => {
 
       <div className="grid grid-cols-1">
         {featuresLinks?.map((item) => (
-          <ArticleComponent item={{ ...item }} key={item?.id} />
+          <ArticleComponent item={{ ...item, textLength: 70 }} key={item?.id} />
         ))}
       </div>
     </div>

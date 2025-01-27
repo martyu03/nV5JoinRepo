@@ -11,7 +11,7 @@ const PoliceView = () => {
       <div>
         {policeLinks?.map((item) => (
           <ArticleComponent
-            item={{ ...item, direction: "row" }}
+            item={{ ...item, textLength: 70, direction: "row" }}
             key={item?.id}
           />
         ))}

@@ -4,10 +4,10 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8">
-            <div className="cont">
+      <div className=" bg-[#EEEEEE]">
+        <div className="grid grid-cols-12 container py-3 gap-5">
+          <div className="col-span-8">
+            <div className="cont space-y-4">
               <Image src="/images/NEWS5-logo.png" alt="News5 Logo" width={200} height={100} />
               <p>
                 News5 stands at the forefront of digital journalism as the first 24/7 online news
@@ -32,8 +32,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-4">
-            <div className="title">GET IN TOUCH</div>
+          <div className="col-span-4 space-y-4 font-sm">
+            <div className="text-red-500 font-bold">GET IN TOUCH</div>
             <p>
               <b>LOCATION</b>
             </p>
@@ -48,21 +48,19 @@ const Footer = () => {
               alt="NPC Seal"
               width={200}
               height={100}
-              onClick={() => openPopup('popup-policy')}
+              // onClick={() => openPopup('popup-policy')}
               style={{ cursor: 'pointer' }}
             />
           </div>
         </div>
       </div>
 
-      <div className="copyright">
-        <div className="container">
-          <div className="left-side">© {new Date().getFullYear()} TV5 NETWORK INC. ALL RIGHTS RESERVED.</div>
-          <div className="right-side">
-            <div onClick={() => openPopup('popup-policy')} style={{ cursor: 'pointer' }}>
-              Privacy Statement
-            </div>
-            <a href="/fact-check">Fact-Check Policy</a>
+      <div className="bg-[#333333]">
+        <div className="container flex justify-between py-2">
+          <div className="text-left text-white inline-block text-sm">© {new Date().getFullYear()} TV5 NETWORK INC. ALL RIGHTS RESERVED.</div>
+          <div className="text-right cursor-pointer text-white text-sm">
+            <span className="inline-block">Privacy Statement</span>
+            <a href="/fact-check" className="inline-block ml-2">Fact-Check Policy</a>
           </div>
         </div>
       </div>

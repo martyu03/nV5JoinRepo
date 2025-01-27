@@ -10,7 +10,7 @@ const MoreFromNewsView = () => {
 
       <div className="grid grid-cols-2 space-y-1">
         {morefromnewsLinks?.map((item) => (
-          <ArticleComponent item={{ ...item }} key={item?.id} />
+          <ArticleComponent item={{ ...item, textLength: 70 }} key={item?.id} />
         ))}
       </div>
     </div>

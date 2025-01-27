@@ -10,7 +10,7 @@ const ProducersView = () => {
 
       <div className="grid grid-cols-2 gap-2">
         {producersLinks?.map((item) => (
-          <ArticleComponent item={{ ...item }} key={item?.id} />
+          <ArticleComponent item={{ ...item, textLength: 89 }} key={item?.id} />
         ))}
       </div>
     </div>

@@ -11,7 +11,7 @@ const PoliticsView = () => {
       <div className="space-y-3">
         {politicsLinks?.map((item) => (
           <ArticleComponent
-            item={{ ...item, direction: "row" }}
+            item={{ ...item, textLength: 50, direction: "row" }}
             key={item?.id}
           />
         ))}

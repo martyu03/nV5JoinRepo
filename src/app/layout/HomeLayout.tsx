@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import Topbar from "../components/nav-bar/TopBar";
 import Bottombar from "../components/nav-bar/BottomBar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +17,9 @@ const HomeLayout = ({ children }: any) => {
         <Bottombar />
       </div>
       <div className="w-full pt-40">{children}</div>
+      <div className="w-full">
+        <Footer /> 
+      </div>
     </div>
   );
 };
