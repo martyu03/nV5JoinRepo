@@ -14,6 +14,7 @@ import MoreFromNewsView from "../features/morefromnews/MoreFromNewsView";
 import FeaturesView from "../features/features/FeaturesView";
 import ProducersView from "../features/producers/ProducersView";
 import VerticalAds from "@/app/components/Ads/VerticalAds";
+import HorizontalAds from "@/app/components/Ads/HorizontalAds";
 
 const HomeListView = () => {
   return (
@@ -29,7 +30,11 @@ const HomeListView = () => {
 
       {/* other components */}
       <div className="grid grid-cols-6 container gap-2">
-        <div className="space-y-7 container col-span-4">
+        <div className="space-y-7 container col-span-4 py-2">
+          {/* ads */}
+          <div>
+            <HorizontalAds />
+          </div>
           <div>
             <RecentView />
           </div>

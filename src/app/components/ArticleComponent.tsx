@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ButtonWatch from "./ButtonWatch";
+import { truncateText } from "../utils/truncate-text";
 
 type styles = {
   width: number;
@@ -56,7 +57,7 @@ const ArticleComponent = (item: ArticleProps) => {
             {title?.length >= 50 ? `${title?.slice(0, 50)}...` : title}
           </p>
           <p className={`text-slate-400`}>
-          {subTitle?.length >= 50 ? `${subTitle?.slice(0, 50)}...` : title}
+            {subTitle?.length >= 50 ? `${subTitle?.slice(0, 50)}...` : title}
           </p>
         </div>
       </div>
@@ -64,7 +65,7 @@ const ArticleComponent = (item: ArticleProps) => {
   }
 
   return (
-    <div className={`space-y-1 space-x-1`}>
+    <div className={`space-y-1 space-x-1]`}>
       <Image
         alt={title}
         width={100}
@@ -77,7 +78,9 @@ const ArticleComponent = (item: ArticleProps) => {
         <h3 className={headline && "font-semibold"}>{title}</h3>
       </div>
 
-      <h3 className={headline && "font-semibold text-slate-400"}>{subTitle}</h3>
+      <h3 className={headline && "font-semibold text-slate-400"}>
+        {truncateText(subTitle, 70)}
+      </h3>
       {toWatch && <ButtonWatch />}
     </div>
   );
